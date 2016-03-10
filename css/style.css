@@ -1,4 +1,4 @@
-.wrapper{
+.wrapper {
   width: 908px;
   margin: 16px auto;
   -box-shadow: 0 0 5px grey;
@@ -129,7 +129,6 @@ nav ul li{
 nav ul{
   width: 480px;
 }
-
 .navigation{
 width: 909px;
 height: 33px;
@@ -142,7 +141,7 @@ border-radius: 5px;
 .navigation li a{
   color: #bbc5c8;
   line-height: normal;
-  font-size: 12px;
+  font-size: 13px;
   text-decoration: none;
   font-family: "Lucida Sans Unicode";
 }
@@ -176,7 +175,6 @@ border-radius: 5px;
   background-position: left;
   padding-left: 25px;
   height: 17px;
-
 }
 .basket p{
   display: inline-block;
@@ -188,13 +186,13 @@ border-radius: 5px;
   padding-left: 10px;
   font-family: Arial;
   letter-spacing: 0.4px;
-
 }
+ 
 .basket .colo{
   font-size: 12px;
   color: #0D5AC7;
   letter-spacing: 0.5px;
-
+  line-height: 18px;
 }
 /*Navigation*/
 /*FILTER*/
@@ -318,12 +316,10 @@ line-height: 1em;
 .forma-disk-colon1-p{
   margin: 3px 15px;
   font-family: "Lucida Sans Unicode";
-
 }
 .otstup{
   margin-top: 5px;
 }
-
 .diski{
   color: #154468;
   float: left;
@@ -368,8 +364,7 @@ line-height: 1em;
   clear: both;
 }
 .header-shin,
-.header-disk
-{
+.header-disk {
   text-align: left;
   font-size: 12px;
   color: #114165;
@@ -379,7 +374,6 @@ line-height: 1em;
 .header-disk{
   margin-bottom: 9px;
 }
-
 .forma-shin p{
   font-size: 10px;
   margin-left: 15px;
@@ -464,8 +458,6 @@ line-height: 8px;
   font-size: 11px;
   position: absolute;
   left: 85px;
-  /*-top: -5px;
-  -padding-top: 5px;*/
   bottom: 0.5px;
 }
 .god-avto{
@@ -473,8 +465,7 @@ line-height: 8px;
   font-size: 11px;
   position: absolute;
   left: 85px;
-  /*top: -5px;*/
-    bottom: 4px;
+  bottom: 4px;
 }
 .text-ser{
   -border: 1px solid black;
@@ -509,8 +500,6 @@ width: 185px;
   clear: both;
 }
 .header-left{
-/*  -height: 25px;
-  -width: 180px; */
   padding:7px 2px 7px 30px;
   border: 1px solid #949fa4;
   border-radius: 15px;
@@ -519,7 +508,6 @@ width: 185px;
   font-family: "Lucida Sans Unicode";
   vertical-align: middle;
   box-shadow: 0 1px 2px #3c4367;
-
 }
 .header-left::before{
   content: "";
@@ -532,7 +520,6 @@ width: 185px;
   margin-left: -25px;
   margin-top: -5px;
   position: absolute;
-
 }
 .title-left{
   font-size: 14px;
@@ -647,15 +634,14 @@ h3{
   margin-left: 10px;
   float: left;
 }
-.right-colon:after{
+.right-colon:after {
   content: "";
   display: block;
   clear: both;
 }
 
 .header-right,
-.title-right
-{
+.title-righ {
   font-size: 14px;
   color: #114165;
   font-family: "Arial";
@@ -789,25 +775,28 @@ font-family: "Lucida Sans Unicode";
   height: 26px;
   border: none;
   outline: none;
-  /*background-image: url(../img/submit-buttons.png);
-  background-position: center;
-  background-repeat: no-repeat;*/
 }
 /*Container*/
 /*Footer*/
-.logo-sponsor{
-  -border: 1px solid black;
+  
+  footer{
+  margin-top:645px;	  
+ }
+.brand-logos li{
+  padding: 26px 9px 18px;
+  background-color: white;
   text-align: center;
-}
-.logo-sponsor img{
-  display:  inline-block;
-  /*-width: 676px;
-  -height: 27px;*/
-  margin-top: 35px;
-  margin-bottom: 20px;
+  float: left;
+  clear: right;
+ }
+.brand-logos {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 91px;
+  padding-bottom:5px;
 }
 .page{
-  height: 100px;
+  height: 92px;
   width: 909px;
   background-color: #213a4d;
 }
@@ -846,6 +835,4 @@ font-family: "Lucida Sans Unicode";
   text-align: center;
   margin-top: 5px;
 }
-
-
 /*Footer*/
