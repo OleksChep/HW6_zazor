@@ -609,12 +609,14 @@ h2{
   line-height: 13px;
   text-align: center;
 }
+ a{
+  text-decoration: none;
+}
 h3{
   font-size: 13px;
   line-height: 13px;
   font-family: "Lucida Sans Unicode";
   text-align: center;
-
 }
 .price{
   color: #114165;
